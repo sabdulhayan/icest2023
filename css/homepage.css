@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.home {
+    background-image: url("../images/homeBG2.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    backdrop-filter: blur(5px);
+    background-attachment: fixed;
+
+}
+
+.home::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(48, 48, 48, 0.638);
+    font-family: 'Roboto', sans-serif;
+    z-index: -1;
+
+}
+
+.home h2 {
+    z-index: 1;
+    font-size: 40px;
+    width: 80vw;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+}
+
+.home h1 {
+    z-index: 1;
+    font-size: 40px;
+    width: 80vw;
+    font-weight: 1000;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    line-height: 100px;
+}
+
+.underLine {
+    height: 12px;
+    width: 80vw;
+    background: #f0b106;
+}
+
+.introduction {
+    background: #f0b106;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction1 {
+    background: #f0b106;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro_width {
+    margin-top: 30px;
+    text-align: justify;
+    width: 80vw;
+    margin: 20px;
+
+}
+.intro_width h1{
+    font-weight: bold;
+}
+.intro_width h2{
+    margin-top: 30px;
+}
+
+
+.publications {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pub_width {
+    margin-top: 30px;
+    text-align: justify;
+    width: 80vw;
+    margin-bottom: 30px;
+
+}
+.pub_width h1{
+    font-weight: bold;
+}
+.pub_width h2{
+    margin-top: 30px;
+}
+.pub_width h3{
+    margin: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid ;
+    display: inline-block;
+}
+.pub_width ul {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.pub_width ul li{
+    line-height: 40px;
+}
+.strong{
+    font-weight: bold;
+}
+.call_width{
+    width: 80vw;
+    display: flex;
+    flex: wrap;
+}
+
+.row{
+    width: 33%;
+    margin: 10px;
+
+}
+.topics ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.topics li {
+    font-size: 15px;
+    margin: 5px 0;
+    padding:5px  15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
